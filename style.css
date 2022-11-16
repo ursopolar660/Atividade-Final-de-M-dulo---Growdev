@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+body{
+    background-color: lightgrey;
+}
+.menul{
+    font-family: sans-serif;
+    font-weight: 700;
+    margin-right: 20em;
+    display: block;
+    background: rgb(196, 113, 5);
+    width: 20em;
+    text-align: center;
+    height: 100vh;
+}
+.menul .f img{
+    border: 0.4rem solid rgb(250, 202, 114);
+    width: 11rem;
+    height: 17rem;
+    align-self: center;
+    border-radius: 100%;
+    margin: 10rem -50% 0rem -50%;
+}
+.menul .menu{
+    margin-top: 1.5rem;
+}
+.menul .menu a{
+    list-style: none;
+    text-decoration: none;
+    color: black;
+    font-size: x-large;
+}
+.menul .menu a:hover{
+    color: brown;
+}
+.cont{
+    font-family: monospace;
+    display: flexbox;
+    text-align: center;
+    margin-top: -42em;
+    margin-left: -41em;
+    font-size: medium;
+    margin-bottom: 1.5rem;
+}
+.cont h1{
+    text-transform: uppercase;
+    font-size: 4.6em;
+}
+.cont a{
+    text-decoration: none;
+    color: black;
+}
+.desc{
+    width: 50em;
+    display: flexbox;
+    align-items: center;
+    margin-left: 21em;
+    color: navy;
+}
+.social{
+    display: flex;
+    margin-left: 20.5em;
+    margin-top: 1em;
+}
+.social img{
+    width: 3em;
+}
+.social img:hover{
+    border: 2px solid navy;
+    border-radius: 50%;
+}
+.conhec{
+    font-family: monospace;
+    display: flexbox;
+    text-align: left;
+    margin-top: -32em;
+    margin-left: 22em;
+    color: navy;
+    font-size: 14pt;
+    margin-bottom: 1.5rem;
+    text-transform: uppercase;
+}
+.pes{
+    font-family: monospace;
+    display: flexbox;
+    text-align: left;
+    margin-top: -25em;
+    margin-left: 20em;
+    font-size: 14pt;
+    margin-bottom: 1.5rem;
+    text-transform: uppercase;
+}
+.pro{
+    font-family: monospace;
+    display: flexbox;
+    text-align: left;
+    margin-top: -5em;
+    margin-left: 43em;
+    align-items: center;
+    font-size: 14pt;
+    margin-bottom: 1.5rem;
+    text-transform: uppercase;
+}
